@@ -5,3 +5,4 @@ function clicked(element) {
     }
     element.parentNode.classList.add("clicked");
   }
+  
