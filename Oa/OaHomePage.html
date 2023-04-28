@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>OA Training Ground</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <h1>OA Training Ground</h1>
-    <p>This is the training ground for audit contest. The following levels are variations of findings that have been found in recent contests:</p>
-    
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-          <th>Skills to be gained</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="level1.html" onclick="clicked(this)">Level 1</a></td>
-          <td>Basic knowledge of audit procedures</td>
-          <td>Understanding of audit objectives, planning, and documentation</td>
-        </tr>
-        <tr>
-          <td><a href="level2.html" onclick="clicked(this)">Level 2</a></td>
-          <td>Advanced audit procedures and techniques</td>
-          <td>Knowledge of internal controls, testing, and sampling</td>
-        </tr>
-        <tr>
-          <td><a href="level3.html" onclick="clicked(this)">Level 3</a></td>
-          <td>Specialized audit areas</td>
-          <td>Expertise in fraud examination, IT auditing, or other specialized areas</td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <script src="script.js"></script>
-  </body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OA Training Ground</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1>OA Training Ground</h1>
+	</header>
+
+	<main>
+		<section>
+			<h3>Welcome to the OA Training Ground, a challenge for auditors seeking to hone their skills and sharpen their understanding of common vulnerabilities. The following levels have been designed to test your ability to identify and exploit various vulnerabilities that have been found in recent contests:
+      </h3>
+		</section>
+
+		<section>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Objective</th>
+						<th>Class</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="https://github.com/devNamedKiki/OA" onclick="clicked(this)">It's a Race!</a></td>
+						<td>Exploit a race condition to take more funds than allowed</td>
+						<td>Race Condition</td>
+					</tr>
+					<tr>
+						<td><a href="https://github.com/devNamedKiki/OA" onclick="clicked(this)">The Best Things in Life are Free</a></td>
+						<td>Buy an NFT for free by exploiting a math vulnerability</td>
+						<td>Arithmetic</td>
+					</tr>
+					<tr>
+						<td><a href="https://github.com/devNamedKiki/OA" onclick="clicked(this)">Money Back is Not Always Guaranteed</a></td>
+						<td>Lock user funds to cause a denial-of-service (DOS) attack</td>
+						<td>DOS</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</main>
+
+	<footer>
+		<script src="script.js"></script>
+	</footer>
+</body>
 </html>
